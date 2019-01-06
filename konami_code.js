@@ -8,6 +8,7 @@ function init(e) {
   body.addEventListener('keydown', konami(e)) {
     
     let key = parseInt(e.which || e.detail);
+    
   if (key===code[index]) {index++;
   
   if (index === code.length) {alert("Congrats!");
