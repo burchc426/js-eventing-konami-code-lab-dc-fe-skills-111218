@@ -4,7 +4,7 @@ let index = 0;
 
 function init() {
   let body = document.body;
-  body.addEventListener('keydown', konami(e); {
+  body.addEventListener('keydown', konami(e) {
      
     let key = parseInt(e.which || e.detail);
     
