@@ -4,7 +4,7 @@ let index = 0;
 
 function init(e) {
   let body = document.body;
-  body.addEventListener('keydown', konami);
+  body.addEventListener('keydown', konami(e));
   let key = parseInt(e.which || e.detail);
   if (key===code[index]) {index++;
   
