@@ -11,7 +11,7 @@ function init(e) {
     
   if (key===code[index]) {index++;
   
-  if (index === code.length) {alert("Congrats!");
+  if (index === code.length-1) {alert("Congrats!");
   
   index = 0;}
   
