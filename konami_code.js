@@ -4,7 +4,21 @@ let index = 0;
 
 function init() {
   let body = document.body;
-  body.addEventListener('keydown', )
+  body.addEventListener('keydown', konami()); {
+     
+    let key = parseInt(e.which || e.detail);
+    
+  if (key===code[index]) {index++;
+  
+  if (index === code.length-1) { index = 0;
+  alert("Congrats!");
+ }
+  
+  } else {
+    index = 0;
+  }
+
+  }
 }
 
 function init(e) {
